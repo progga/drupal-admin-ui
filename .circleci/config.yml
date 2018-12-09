@@ -70,7 +70,7 @@ executors:
       - image: circleci/node:10-browsers
   php-node-executor:
     docker:
-      - image: circleci/php:7.1-fpm-node-browsers
+      - image: circleci/php:7.0-fpm-node-browsers
 
 jobs:
   lint_unit:

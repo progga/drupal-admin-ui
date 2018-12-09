@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8d4acefa7662e4e4fc8f1b192d459ec",
+    "content-hash": "e60413db1f5358babaccfab87a6c0c04",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -942,8 +942,7 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
-                },
-                "patches_applied": []
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -7238,17 +7237,6 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.7.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "f551d0b71bbfd10444f5d8805ebf2052fb155a46"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/f551d0b71bbfd10444f5d8805ebf2052fb155a46",
-                "reference": "f551d0b71bbfd10444f5d8805ebf2052fb155a46",
-                "shasum": ""
-            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
